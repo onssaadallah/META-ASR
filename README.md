@@ -8,7 +8,7 @@ the development of a meta-ASR system capable of analyzing audio features and sel
 the most appropriate pre-trained ASR model from two state-of-the-art models, QuartzNet
 15x5 and Wave2Vec 2.0.
 This project was undertaken at AMZI Smart Solutions with the hypothesis that our
-Meta-ASR system would outperform using each individual model in isolation.
+Meta-ASR system would outperform using each model in isolation.
 To evaluate the effectiveness of these approaches, we employed the word error rate
 (WER) metric, which measures the accuracy of the transcriptions, on several open-source
 audio datasets.
@@ -23,12 +23,10 @@ Keywords: Automatic speech recognition, meta-ASR, audio features, QuartzNet
 
 ## Repository files
 The project is divided into three main directories:
-* Data Annotation directory presents the metadata creation steps:
+The data Annotation directory presents the metadata creation steps:
    1- Audio Collection.ipynb: Collect the audio data from YouTub by converting each video into audio and splitting each audion into sequences of chunks. we save the audio data in the folder called "Audio_Data".
    Audio_Data Directory Structure
    The "Audio_Data" directory is organized into multiple folders. Each folder represents a specific video and contains sequences of audio chunks derived from that video.
-   
-
 
    2-FeatureExtraction.ipynb: Extract the distribution satistical (min, max, mean, median, Q1, Q3)features from the most commonly used signal audio features:
              META_FEATURES={
