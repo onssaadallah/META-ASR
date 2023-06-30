@@ -1,4 +1,4 @@
-# Automated Speech Recoginition Using Meta-Learning (META-ASR)
+# Automated Speech Recognition Using Meta-Learning (META-ASR)
 Automatic speech recognition (ASR) is a revolutionary technology that allows computers to transcribe spoken language into written text without human intervention.
 However, to implement ASR effectively, it is crucial to select a suitable system that can
 handle diverse types of spoken data.
