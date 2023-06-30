@@ -1,11 +1,11 @@
 # META-ASR
-## Automatic speech recognition (ASR) is a revolutionary technology that allows computers to transcribe spoken language into written text without any human intervention.
+## Automatic speech recognition (ASR) is a revolutionary technology that allows computers to transcribe spoken language into written text without human intervention.
 However, to implement ASR effectively, it is crucial to select a suitable system that can
 handle diverse types of spoken data.
-Currently, there are several pretrained ASR models available, but no single model can
+Currently, there are several pre-trained ASR models available, but no single model can
 effectively handle all types of spoken data. In this thesis, we propose a novel approach:
 the development of a meta-ASR system capable of analyzing audio features and selecting
-the most appropriate pretrained ASR model from two state-of-the-art models, QuartzNet
+the most appropriate pre-trained ASR model from two state-of-the-art models, QuartzNet
 15x5 and Wave2Vec 2.0.
 This project was undertaken at AMZI Smart Solutions with the hypothesis that our
 Meta-ASR system would outperform using each individual model in isolation.
