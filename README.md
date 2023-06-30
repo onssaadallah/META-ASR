@@ -77,8 +77,8 @@ The data Annotation directory presents the metadata creation steps:
 
 ## Tools and Frameworks Used    
 
--Pandas
--Youtub-dl
+# Pandas
+# Youtub-dl
 -pydub
 -librosa
 -nemo
