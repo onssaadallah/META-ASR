@@ -77,18 +77,18 @@ The data Annotation directory presents the metadata creation steps:
 
 ## Tools and Frameworks Used    
 
-# Pandas
-# Youtub-dl
--pydub
--librosa
--nemo
--scikit-learn
--jiwer
--transformers
--torch
--pickel
--wavio
--plotly
+- Pandas
+- Youtub-dl
+- pydub
+- librosa/
+- Nemo
+- Scikit-learn
+- jiwer
+- transformers
+- Torch
+- pickle
+- wavio
+- plotly
 
 
 
