@@ -80,7 +80,7 @@ The data Annotation directory presents the metadata creation steps:
 - Pandas
 - Youtub-dl
 - pydub
-- librosa/
+- librosa
 - Nemo
 - Scikit-learn
 - jiwer
