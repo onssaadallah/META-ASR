@@ -24,6 +24,8 @@ Keywords: Automatic speech recognition, meta-ASR, audio features, QuartzNet
 ## Repository files
 The project is divided into three main directories:
 The data Annotation directory presents the metadata creation steps:
+![2](https://github.com/onssaadallah/META-ASR/assets/44116045/7924439b-243d-46d9-a26a-10bdf62985b6)
+
    1- Audio Collection.ipynb: Collect the audio data from YouTub by converting each video into audio and splitting each audion into sequences of chunks. we save the audio data in the folder called "Audio_Data".
    Audio_Data Directory Structure
    The "Audio_Data" directory is organized into multiple folders. Each folder represents a specific video and contains sequences of audio chunks derived from that video.
@@ -65,12 +67,12 @@ The data Annotation directory presents the metadata creation steps:
           - Main_PreProcessedMetaData.csv
           - Main_RawMetaData.csv
 
-
+* Audio Data Access: https://drive.google.com/drive/folders/15x3Wgw6bv0G0MLQOsYum_d7Vb1zjBtpc?usp=drive_link
 * Meta_Modeling directory presents the meta Model creation steps:
    1-DataExploring.ipynb: Analyzing and exploring the two main metadata (Main_PreProcessedMetaData.csv, Main_RawMetaData.csv)
    The objective here is to define the classification task for each metadata
 
-   2-Meta_Model.ipynb: Employing the classification statistical machine learning models such as    'DecisionTree','RandomForest', and 'Knn'. select the best classification statistical model based on the evaluation metric F1-SCORE.
+   2-Meta_Model.ipynb: Employing the classification statistical machine learning models such as    'DecisionTree', 'RandomForest', and 'Knn'. select the best classification statistical model based on the evaluation metric F1-SCORE.
 
 * Meta_Model_Evaluation directory presents the evaluation process of the Meta_ASR:
    TestModel.ipynb: The evaluation process of the meta-model involves testing its performance on the ground truth data by transcribing the text from each input audio and computing the Word Error Rate (WER).
