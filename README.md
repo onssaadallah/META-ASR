@@ -91,6 +91,8 @@ The data Annotation directory presents the metadata creation steps:
 - pickle
 - wavio
 - plotly
+# Blog Link 
+https://medium.com/@onssaadallah/meta-asr-automated-speech-recognition-using-meta-learning-79633cb5c689
 
 
 
